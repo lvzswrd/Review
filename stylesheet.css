@@ -1,0 +1,72 @@
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+         body{ background-color:#d6a6898a;line-height:1;}
+         div.main{margin: 50px auto; width: 1200px;}
+         h1{font-size: 40px; font-weight: 1000;font-style: italic;border: 5px groove #be9aad; text-align: center;}
+         p{font-size: 24px; border-bottom: 1px solid grey;}
+         .third{font-size:22px;}
+         span{font-size: 30px; font-weight:600;}
+         .alignment{text-align: center}
+         .second{font-size: 25px;}
+         h3{font-size: 23px; font-weight: 800;}
+         .center {text-align: center;}
+         a{background-color: rgba(255, 0, 255, 0.5);}
+         h2{font-size: 25px; font-weight:800;}
+         .inline{display: inline-block; position:relative;}
+         .grey{background:rgba(255, 0, 255, 0.5); font-size:20p; outline: 1px solid black;}
+         .absolute{ position:absolute;
+          background-color: rgba(255,0,255,0.7);
+          width: 364px; 
+          height: 70px;
+          top:50%; 
+          left:50%; 
+          margin-top:-35px; 
+          margin-left:-182px; 
+          font-size:24px;}
+        .fixed{position:fixed; left:0; top:50%; bottom: 50%; right: 85%;}
